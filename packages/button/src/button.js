@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+console.log('test');
+
 const Button = styled.button`
   background: red;
   color: #fff;
