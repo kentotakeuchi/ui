@@ -11,8 +11,7 @@
     "coverage": "jest --coverage",
     "unit": "jest",
     "changed": "npx lerna changed",
-    "diff": "npx lerna diff",
-    "version": "npx lerna version"
+    "diff": "npx lerna diff"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.0",
@@ -37,6 +36,5 @@
     "react-test-renderer": "^17.0.1",
     "styled-components": "^5.2.1",
     "webpack": "^5.24.2"
-  },
-  "version": "0.0.0"
+  }
 }
