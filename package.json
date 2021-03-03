@@ -7,7 +7,7 @@
   "scripts": {
     "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.stories.js,**/*.spec.js",
     "bootstrap": "lerna bootstrap --use-workspaces",
-    "dev": "start-storybook -p 5555",
+    "storybook": "start-storybook -p 5555",
     "coverage": "jest --coverage",
     "unit": "jest",
     "changed": "npx lerna changed",
