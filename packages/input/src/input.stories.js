@@ -1,8 +1,8 @@
-import Input from './input';
+import Input from './input'
 
 export default {
   component: Input,
-  title: 'Design System/Input',
-};
+  title: 'Demo/Input'
+}
 
-export const placeholder = () => <Input placeholder="user@gmail.com" />;
+export const placeholder = () => <Input placeholder='user@gmail.com' />

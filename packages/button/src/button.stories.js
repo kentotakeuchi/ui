@@ -1,8 +1,10 @@
 import Button from './button'
+// import Center from '../../center/src/center'
 
 export default {
   component: Button,
-  title: 'Design System/Button'
+  title: 'Demo/Button'
+  // decorators: [story => <Center>{story()}</Center>] // local decorator
 }
 
 export const primary = () => <Button>{'Primary'}</Button>
