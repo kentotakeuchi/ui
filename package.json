@@ -7,19 +7,22 @@
   "scripts": {
     "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.stories.js,**/*.spec.js",
     "bootstrap": "lerna bootstrap --use-workspaces",
-    "storybook": "start-storybook -p 5555",
-    "coverage": "jest --coverage",
-    "unit": "jest",
     "changed": "npx lerna changed",
-    "diff": "npx lerna diff"
+    "diff": "npx lerna diff",
+    "storybook:dev": "start-storybook -p 5555",
+    "storybook:build": "build-storybook -s public",
+    "coverage": "jest --coverage",
+    "unit": "jest"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.0",
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.8",
     "@babel/preset-react": "^7.12.13",
+    "@storybook/addon-a11y": "^6.1.21",
     "@storybook/addon-docs": "^6.1.20",
     "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-knobs": "^6.1.21",
     "@storybook/addon-links": "^6.1.21",
     "@storybook/addon-viewport": "^6.1.21",
     "@storybook/preset-create-react-app": "^3.1.6",

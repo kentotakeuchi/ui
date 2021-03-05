@@ -1,5 +1,6 @@
 import Button from './button'
 // import Center from '../../center/src/center'
+import { text, boolean } from '@storybook/addon-knobs'
 
 export default {
   component: Button,
@@ -11,3 +12,7 @@ export const primary = () => <Button>{'Primary'}</Button>
 export const secondary = () => <Button>{'Secondary'}</Button>
 export const success = () => <Button>{'Success'}</Button>
 export const danger = () => <Button>{'Danger'}</Button>
+
+export const Knobs = () => (
+  <Button disabled={boolean('Disabled', false)}>{text('Label', 'Button Label')}</Button>
+)
