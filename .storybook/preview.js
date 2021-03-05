@@ -1,5 +1,6 @@
 import { CenterX } from '../packages/center/src/center.stories'
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
+import '@storybook/addon-console'
 
 // global decorator
 export const decorators = [

@@ -2404,7 +2404,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-actions@6.1.21":
+"@storybook/addon-actions@6.1.21", "@storybook/addon-actions@^6.1.21":
   version "6.1.21"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.1.21.tgz#881dceb0ed650fe28086d9993703f8081b29f4ce"
   integrity sha512-H+nhSgK3X5L+JfArsC9ufvgJzQwPN9UXBxhMl74faEDCo9RGmq9ywNcjn9XlZGGnJ3jCaYrI/T1u0J7F6PBrTA==
@@ -2444,6 +2444,13 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
+
+"@storybook/addon-console@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-console/-/addon-console-1.2.3.tgz#f6c88a8f54fe00c8de9b77720eaef2bc1daa3af1"
+  integrity sha512-w5uCUwECA28fdZWoa+A4e/RS9XzBStdd3TwwmpSM5m4fjURJI7Qr+uVq30UeRdgZRH1K7CdWzYUE6RxWXMdVyw==
+  dependencies:
+    global "^4.3.2"
 
 "@storybook/addon-controls@6.1.21":
   version "6.1.21"
