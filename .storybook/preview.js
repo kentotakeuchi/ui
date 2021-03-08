@@ -18,7 +18,7 @@ export const parameters = {
     // defaultViewport: 'someDefault'
   },
   backgrounds: {
-    default: 'light',
+    default: 'dark',
     values: [
       {
         name: 'light',
