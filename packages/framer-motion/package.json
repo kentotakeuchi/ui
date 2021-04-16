@@ -1,5 +1,5 @@
 {
-  "name": "button-fm",
+  "name": "framer-motion",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "src/index.js",

@@ -1,6 +1,6 @@
 import CardGMP from './card-gmp'
 import { text, boolean } from '@storybook/addon-knobs'
-import ButtonFM from '../../button-fm/src/button-fm'
+import Button from '../../button/src/button'
 
 export default {
   component: CardGMP,
@@ -8,9 +8,9 @@ export default {
 }
 
 export const primary = ({ children }) => <CardGMP>{children}</CardGMP>
-export const primaryWithButtonFM = () => (
+export const primaryWithButton = () => (
   <CardGMP>
-    <ButtonFM drag>Drag</ButtonFM>
+    <Button>GMP</Button>
   </CardGMP>
 )
 
