@@ -19,7 +19,7 @@ const SIZES = {
   }
 }
 
-const Button = ({ variant = 'fill', size = 'medium', children }) => {
+const Button = ({ variant = 'fill', size = 'medium', children, className }) => {
   const styles = SIZES[size]
 
   let Component
@@ -33,7 +33,11 @@ const Button = ({ variant = 'fill', size = 'medium', children }) => {
     throw new Error(`Unrecognized Button variant: ${variant}`)
   }
 
-  return <Component style={styles}>{children}</Component>
+  return (
+    <Component style={styles} className={className}>
+      {children}
+    </Component>
+  )
 }
 
 const ButtonBase = styled.button`
