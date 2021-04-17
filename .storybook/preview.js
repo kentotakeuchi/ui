@@ -1,16 +1,6 @@
 import '@storybook/addon-console'
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
 import './global.css'
-import { CenterX } from '../packages/center/src/center.stories'
-
-// global decorator
-export const decorators = [
-  Story => (
-    <CenterX>
-      <Story />
-    </CenterX>
-  )
-]
 
 // viewport
 export const parameters = {
