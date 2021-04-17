@@ -1,5 +1,10 @@
 module.exports = {
-  stories: ['../packages/**/*.stories.js', '../packages/**/**/*.stories.js'],
+  stories: [
+    '../packages/**/*.stories.mdx',
+    '../packages/**/*.stories.@(js|jsx|ts|tsx)',
+    '../packages/**/**/*.stories.mdx',
+    '../packages/**/**/*.stories.@(js|jsx|ts|tsx)'
+  ],
   addons: [
     '@storybook/addon-docs',
     '@storybook/addon-links',
@@ -8,6 +13,7 @@ module.exports = {
     '@storybook/addon-knobs',
     '@storybook/addon-viewport',
     '@storybook/addon-a11y',
-    '@storybook/addon-actions'
+    '@storybook/addon-actions',
+    '@storybook/addon-controls'
   ]
 }

@@ -1,6 +1,7 @@
-import { CenterX } from '../packages/center/src/center.stories'
-import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
 import '@storybook/addon-console'
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
+import './global.css'
+import { CenterX } from '../packages/center/src/center.stories'
 
 // global decorator
 export const decorators = [
@@ -37,5 +38,6 @@ export const parameters = {
         value: '#3b5998'
       }
     ]
-  }
+  },
+  actions: { argTypesRegex: '^on[A-Z].*' }
 }
